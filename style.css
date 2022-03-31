@@ -1,0 +1,14 @@
+td.material-icons {
+    text-align: center;
+}
+
+.active-sidebar {
+    color: black;
+    background-color: white;
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px;
+}
+
+#sticky-sidebar.nav-link a {
+    color: white;
+}
