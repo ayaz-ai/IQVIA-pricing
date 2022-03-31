@@ -14,6 +14,7 @@
 
         <!-- Custom Css -->
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg justify-content-center">
@@ -76,7 +77,7 @@
             <br>
             <div class="row">
               <div class="col bg-dark">
-                <label class="" style="color: white;">Choose a IQVIA Digital Platform</label>
+                <label class="" style="color: white;">Choose IQVIA Hospital EMR Solutions</label>
                 <select class="form-select mb-2" aria-label="Default select example">
                   <p></p>
                   <option selected>Select</option>
@@ -93,46 +94,41 @@
             <div class="row">
               <div class="col-2 order-0 bg-dark d-none d-lg-block" style="padding: 0px;" id="sticky-sidebar">
                 <div class="sticky-top">
-                    <h4 style="color: aliceblue;">Choose IQVIA Healthcare Platform(s)</h4>
+                    <h4 class="p-3" style="color:white;">Choose IQVIA Hospital EMR Solutions</h4>
                     <div class="nav flex-column">
-                        <a href="#_" class="nav-link active-sidebar">Arcus Live</a>
-                        <a href="#_" class="nav-link">Arcus Air</a>
-                        <a href="#_" class="nav-link">Health Plug</a>
+                        <a href="#_" class="nav-link active-sidebar">Arcuslive</a>
+                        <a href="#_" class="nav-link">Arcusair</a>
+                        <a href="#_" class="nav-link">HealthPlug</a>
                     </div>
                 </div>
               </div>
               <div class="col order-1">
                 <div class="row">
-                  <h3 class="pb-2">Hospital Healthcare Platform</h3>
+                  <h3 class="pb-2">Small & Medium Hospitals</h3>
                   <div class="row pb-4">
                     <div class="col">
                       <button type="button" class="btn btn-outline-primary">Schedule Demo</button>
                       <button type="button" class="btn btn-outline-primary">30 Days Free Trial</button>
                       <button type="button" class="btn btn-outline-primary">Get Quotation</button>
-                      <button type="button" class="btn btn-outline-info">Signup as a partner</button>
+                      <button type="button" class="btn btn-outline-primary">Signup as a partner</button>
+                      <button type="button" class="btn btn-primary video-btn" data-bs-toggle="modal" data-bs-target="#videoModal" data-bs-src="https://www.youtube.com/embed/giXco2jaZ_4">
+                        Video Demo
+                    </button>
+                      <button type="button" class="btn btn-outline-primary">FAQ</button>
                     </div>                    
                   </div>
-                  <div class="row pb-3">
-                    <ul class="nav nav-pills nav-fill">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Nursing Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Small Hospital</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Medium Hospital</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Large Hospital</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Corporate Hospital</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">EYE Hospital</a>
-                      </li>
-                    </ul>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="dbschemaModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                          <div class="modal-body">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              <div class="ratio ratio-16x9">
+                                  <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>
+                              </div>
+                          </div>
+                      </div>
                   </div>
                 </div>
                 <div class="table-responsive">
@@ -303,6 +299,8 @@
         
         <!-- Latest compiled JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom Scripts -->
+        <script src="script.js"></script>
     </body>
 </html>
 
