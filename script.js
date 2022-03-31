@@ -14,3 +14,9 @@ videoModal.addEventListener('shown.bs.modal',(e)=>{
 videoModal.addEventListener('hide.bs.modal',(e)=>{
     video.setAttribute('src', videoSrc)
 })
+
+// Initialize tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
