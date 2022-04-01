@@ -21,3 +21,7 @@ td.material-icons {
 .md-inactive {
     color: #c7c7c7;
 }
+
+.tooltip-inner {
+    text-align: left;
+}
