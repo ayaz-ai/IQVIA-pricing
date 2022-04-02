@@ -1,3 +1,14 @@
+@import "functions";
+@import "variables";
+
+$primary: #43b02a;
+
+$theme-colors: (
+  "primary": $primary,
+);
+
+@import "bootstrap";
+
 body {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -7,10 +18,12 @@ td.material-icons {
 }
 
 .active-sidebar {
-    color: black;
-    background-color: white;
+    color: #43b02a;
+    background-color: #f4f4f4;
     border-radius: 25px 0px 0px 25px;
     margin: 0px;
+    font-family: 'Noto Sans',Arial,Helvetica,sans-serif;
+    font-style: normal;
 }
 
 #sticky-sidebar.nav-link a {
