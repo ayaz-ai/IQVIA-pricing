@@ -1,14 +1,3 @@
-@import "functions";
-@import "variables";
-
-$primary: #43b02a;
-
-$theme-colors: (
-  "primary": $primary,
-);
-
-@import "bootstrap";
-
 body {
     font-family: 'Noto Sans', sans-serif;
 }
