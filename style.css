@@ -31,3 +31,7 @@ td.material-icons {
 .tooltip-inner {
     text-align: left;
 }
+
+.map-left p {
+    padding-left: 12px;
+}
